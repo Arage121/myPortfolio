@@ -8,7 +8,7 @@ const Portfolio = () => {
   const [portfolio,setPortfolio] = useState([]);
 
   const fetchProduct = async()=>{
-    const fetchResponse = await fetch('https://portfolio-api-o1gg.onrender.com/user_details');
+    const fetchResponse = await fetch('https://portfolio-api-159j.onrender.com/user_details');
     const data = await fetchResponse.json();
     setPortfolio(data);
   }

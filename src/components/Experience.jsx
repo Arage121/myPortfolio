@@ -5,7 +5,7 @@ const Experience = () => {
   const [skills, setSkills] = useState([]);
 
   const fetchSkills = async () => {
-    const skillRes = await fetch('https://portfolio-api-o1gg.onrender.com/user_skills');
+    const skillRes = await fetch('https://portfolio-api-159j.onrender.com/user_skills');
     const data = await skillRes.json();
     setSkills(data);
   }
